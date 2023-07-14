@@ -17,5 +17,53 @@
             $this->animal= $animal;
         }
 
+
+        /**
+         * Get the value of name
+         */ 
+        public function getName()
+        {
+                return $this->name;
+        }
+
+        /**
+         * Get the value of price
+         */ 
+        public function getPrice()
+        {
+                return $this->price;
+        }
+
+        /**
+         * Get the value of description
+         */ 
+        public function getDescription()
+        {
+                return $this->description;
+        }
+
+        /**
+         * Get the value of brand
+         */ 
+        public function getBrand()
+        {
+                return $this->brand;
+        }
+
+        /**
+         * Get the value of image
+         */ 
+        public function getImage()
+        {
+                return $this->image;
+        }
+
+        /**
+         * Get the value of animal
+         */ 
+        public function getAnimal()
+        {
+                return $this->animal;
+        }
     }
 ?>
