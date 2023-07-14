@@ -1,0 +1,11 @@
+ul{
+    list-style-type: none;
+}
+
+div.container{
+    width: 1200px;
+}
+
+div.card{
+    width: calc(100% / 2);
+}
