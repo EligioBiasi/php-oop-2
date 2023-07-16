@@ -50,7 +50,7 @@ $negozio=[
         'regolabile',
         '0+ anni',
     ),new Crates(
-        '.\assets\gabbia_gatti.jpg',
+        '.\assets\gabbia_gatto.jpg',
         'gabbia comoda',
         'gatti',
         '42 euro',

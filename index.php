@@ -12,18 +12,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
-    <link rel="stylesheet" href=".\style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
         <div class="container">
                 <?php foreach ($negozio as $item) { ?>
                     <div class="card">
-                            <img src="<?php $item-> getImage() ?>" alt="">
+                            <img src="<?php echo $item-> getImage()?>" alt="">
                         <ul>
-                            <li>
-                                <?php echo $item->getImage()?>
-                            </li>
-
                             <li>
                                 <?php echo $item->getName()?>
                             </li>
