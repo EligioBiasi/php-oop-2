@@ -18,11 +18,12 @@
         <div class="container">
                 <?php foreach ($negozio as $item) { ?>
                     <div class="card">
-                        <div>
-                            <img src="<?php $item->getImage()?>" alt="">
-                        </div>
-
+                            <img src="<?php $item-> getImage() ?>" alt="">
                         <ul>
+                            <li>
+                                <?php echo $item->getImage()?>
+                            </li>
+
                             <li>
                                 <?php echo $item->getName()?>
                             </li>
@@ -46,6 +47,24 @@
                             <?php echo $item->getAnimal()?>
                                 
                             </li>
+
+                            <?php if ($item instanceof Food) { ?>
+                            <li>Calorie: <?= $item->getTaste() ?></li><?php } ?>
+
+                            <?php if ($item instanceof Food) { ?>
+                            <li>Calorie: <?= $item->getDogAge() ?></li><?php } ?>
+
+                            <?php if ($item instanceof Toys) { ?>
+                            <li>Calorie: <?= $item->getColor() ?></li><?php } ?>
+
+                            <?php if ($item instanceof Toys) { ?>
+                            <li>Calorie: <?= $item->getMaterial() ?></li><?php } ?>
+
+                            <?php if ($item instanceof Crates) { ?>
+                            <li>Calorie: <?= $item->getSize() ?></li><?php } ?>
+
+                            <?php if ($item instanceof Crates) { ?>
+                            <li>Calorie: <?= $item->getMaterial() ?></li><?php } ?>
                         </ul>
                         
                     </div>
