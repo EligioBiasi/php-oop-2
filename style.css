@@ -9,8 +9,3 @@ div.container{
 div.card{
     width: calc(100% / 2);
 }
-
-img{
-    width: 150px;
-    height: 150px;
-}
