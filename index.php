@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        <h1>
+        <h1 >
+        <h1 class= "text-center">
             Pet Shop
         </h1>
         <div class="container flex flex-wrap margin-auto">
@@ -30,6 +31,7 @@
                             </li>
 
                             <li>
+                                Prezzo: 
                             <?php echo $item->getPrice()?>
                                 
                             </li>
@@ -40,6 +42,7 @@
                             </li>
 
                             <li>
+                                marca: 
                             <?php echo $item->getBrand()?>
                                 
                             </li>
@@ -69,6 +72,7 @@
                         </ul>                       
                     </div>
                 <?php }?>
+
         </div>
     </body>
 </html>

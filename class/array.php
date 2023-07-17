@@ -54,7 +54,7 @@ $negozio=[
         'gabbia comoda',
         'gatti',
         '42 euro',
-        'la gabbia più comoda per il vostro cane',
+        'la gabbia più comoda per il vostro gatto',
         'Comfy cages',
         'Grigio',
         'ferro',

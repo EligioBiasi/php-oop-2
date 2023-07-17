@@ -1,5 +1,22 @@
+
+body{
+    background-image: url('./assets/stupid_catito.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 ul{
     list-style-type: none;
+}
+
+img{
+    object-fit: contain;
+    height: 230px;
+}
+
+h1{
+    color: rgb(243, 110, 95);
+    font-size: 5rem;
 }
 
 div.container{
@@ -10,11 +27,9 @@ div.card{
     width: calc((100% / 3) - 2.13rem);
     border: 1px solid salmon;
     margin: 2rem 1rem;
+    background-color: rgba(171, 200, 228, 0.6);
 }
 
-img{
-    width: 150px;
-}
 
 .flex{
     display: flex;
