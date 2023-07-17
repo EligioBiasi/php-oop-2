@@ -7,9 +7,31 @@ div.container{
 }
 
 div.card{
-    width: calc(100% / 2);
+    width: calc((100% / 3) - 2.13rem);
+    border: 1px solid salmon;
+    margin: 2rem 1rem;
 }
 
 img{
     width: 150px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.justify-center{
+    justify-content: center;
 }

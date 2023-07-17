@@ -15,11 +15,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        <div class="container">
+        <h1>
+            Pet Shop
+        </h1>
+        <div class="container flex flex-wrap margin-auto">
                 <?php foreach ($negozio as $item) { ?>
                     <div class="card">
-                            <img src="<?php echo $item-> getImage()?>" alt="">
-                        <ul>
+                        <div class="flex justify-center">
+                            <img src="<?php echo $item-> getImage()?>" alt="" class="text-center">
+                        </div>
+                        <ul class="text-center">
                             <li>
                                 <?php echo $item->getName()?>
                             </li>
@@ -45,24 +50,23 @@
                             </li>
 
                             <?php if ($item instanceof Food) { ?>
-                            <li>Calorie: <?= $item->getTaste() ?></li><?php } ?>
+                            <li><?= $item->getTaste() ?></li><?php } ?>
 
                             <?php if ($item instanceof Food) { ?>
-                            <li>Calorie: <?= $item->getDogAge() ?></li><?php } ?>
+                            <li><?= $item->getDogAge() ?></li><?php } ?>
 
                             <?php if ($item instanceof Toys) { ?>
-                            <li>Calorie: <?= $item->getColor() ?></li><?php } ?>
+                            <li><?= $item->getColor() ?></li><?php } ?>
 
                             <?php if ($item instanceof Toys) { ?>
-                            <li>Calorie: <?= $item->getMaterial() ?></li><?php } ?>
+                            <li><?= $item->getMaterial() ?></li><?php } ?>
 
                             <?php if ($item instanceof Crates) { ?>
-                            <li>Calorie: <?= $item->getSize() ?></li><?php } ?>
+                            <li><?= $item->getSize() ?></li><?php } ?>
 
                             <?php if ($item instanceof Crates) { ?>
-                            <li>Calorie: <?= $item->getMaterial() ?></li><?php } ?>
-                        </ul>
-                        
+                            <li><?= $item->getMaterial() ?></li><?php } ?>
+                        </ul>                       
                     </div>
                 <?php }?>
         </div>
