@@ -24,7 +24,7 @@ div.container{
 }
 
 div.card{
-    width: calc((100% / 3) - 2.13rem);
+    width: calc((100% / 3) - 2.2rem);
     border: 1px solid salmon;
     margin: 2rem 1rem;
     background-color: rgba(171, 200, 228, 0.6);
